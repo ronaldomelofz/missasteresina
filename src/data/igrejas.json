@@ -1,0 +1,1097 @@
+[
+  {
+    "id": 1,
+    "nome": "Área Pastoral Santa Edwiges",
+    "endereco": "Av Dr Manoel Ayres Neto - Parque Sul",
+    "bairro": "Parque Sul",
+    "telefone": "99434-4930",
+    "instagram": "paroquiasantaedwigesoficial",
+    "lat": -5.1053,
+    "lng": -42.8035,
+    "missas": {
+      "domingo": ["8h", "18h"],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 2,
+    "nome": "Capela Mater Dolorosa - Dom Barreto",
+    "endereco": "R Gabriel Ferreira, 743 N - Centro",
+    "bairro": "Centro",
+    "telefone": "3222-2137",
+    "instagram": "capelamaterdolorosa123",
+    "lat": -5.0889,
+    "lng": -42.8016,
+    "missas": {
+      "domingo": ["9h", "17h"],
+      "segunda": ["6h50"],
+      "terca": ["6h50"],
+      "quarta": ["6h50"],
+      "quinta": ["6h50"],
+      "sexta": ["6h50"],
+      "sabado": []
+    },
+    "confissoes": {
+      "domingo": ["Após a Missa 9h e 19h"],
+      "sabado": ["8h30"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 3,
+    "nome": "Carmelo Santa Teresa de Jesus",
+    "endereco": "R do Carmelo, 1555 - Angelim",
+    "bairro": "Angelim",
+    "telefone": "99979-1946",
+    "instagram": "carmelo_teresina",
+    "lat": -5.0714,
+    "lng": -42.7968,
+    "missas": {
+      "domingo": ["8h"],
+      "segunda": ["6h30"],
+      "terca": ["6h30"],
+      "quarta": ["6h30"],
+      "quinta": ["6h30"],
+      "sexta": ["6h30"],
+      "sabado": ["7h"]
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 4,
+    "nome": "Comunidade Católica Shalom - Jóquei",
+    "endereco": "Jóquei",
+    "bairro": "Jóquei",
+    "telefone": "",
+    "instagram": "shalomteresina",
+    "lat": -5.0785,
+    "lng": -42.8112,
+    "missas": {
+      "domingo": ["10h", "18h30"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["19h"],
+      "quinta": ["18h"],
+      "sexta": ["18h"],
+      "sabado": ["18h"]
+    },
+    "confissoes": {
+      "domingo": ["A partir das 15h30"]
+    },
+    "adoracao": {
+      "domingo": ["0h às 23h59"],
+      "segunda": ["0h às 23h59"],
+      "terca": ["0h às 23h59"],
+      "quarta": ["0h às 23h59"],
+      "quinta": ["0h às 23h59"],
+      "sexta": ["0h às 23h59"],
+      "sabado": ["0h às 23h59"]
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Paróquia de Santa Teresinha do Menino Jesus - Dirceu II",
+    "endereco": "Dirceu II",
+    "bairro": "Dirceu II",
+    "telefone": "",
+    "instagram": "paroquiasantateresinhadirceu",
+    "lat": -5.1095,
+    "lng": -42.7712,
+    "missas": {
+      "domingo": ["7h", "9h", "11h", "19h"],
+      "segunda": ["6h", "19h"],
+      "terca": ["6h", "19h"],
+      "quarta": ["6h", "19h"],
+      "quinta": ["6h", "19h"],
+      "sexta": ["6h", "19h"],
+      "sabado": ["6h", "19h"]
+    },
+    "confissoes": {
+      "sabado": ["15h"],
+      "domingo": ["15h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 6,
+    "nome": "Paróquia N. S. das Dores - Catedral",
+    "endereco": "Centro",
+    "bairro": "Centro",
+    "telefone": "3222-2584",
+    "instagram": "catedraldeteresina",
+    "lat": -5.0910,
+    "lng": -42.8025,
+    "missas": {
+      "domingo": ["7h30", "9h30", "17h"],
+      "segunda": ["12h", "17h"],
+      "terca": ["12h", "17h"],
+      "quarta": ["12h", "17h"],
+      "quinta": ["12h", "17h"],
+      "sexta": ["12h", "17h"],
+      "sabado": ["17h"]
+    },
+    "confissoes": {
+      "segunda": ["A partir das 15h"],
+      "terca": ["A partir das 15h"],
+      "quarta": ["A partir das 15h"],
+      "quinta": ["A partir das 15h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 7,
+    "nome": "Paróquia N. S. das Graças - Buenos Aires",
+    "endereco": "Av. Duque de Caxias, 5555 - Buenos Aires",
+    "bairro": "Buenos Aires",
+    "telefone": "3142-1080",
+    "instagram": "pnsgnorte",
+    "lat": -5.0625,
+    "lng": -42.7975,
+    "missas": {
+      "domingo": ["7h", "17h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": ["18h"],
+      "sabado": ["18h"]
+    },
+    "confissoes": {
+      "segunda": ["17h"],
+      "terca": ["17h"],
+      "quarta": ["17h"],
+      "quinta": ["17h"],
+      "sexta": ["17h"],
+      "sabado": ["17h"]
+    },
+    "adoracao": {
+      "segunda": ["17h"],
+      "terca": ["17h"],
+      "quarta": ["17h"],
+      "quinta": ["17h"],
+      "sexta": ["17h"],
+      "sabado": ["17h"]
+    }
+  },
+  {
+    "id": 8,
+    "nome": "Paróquia N. S. de Fátima",
+    "endereco": "Bairro de Fátima",
+    "bairro": "Fátima",
+    "telefone": "3232-2030",
+    "instagram": "",
+    "lat": -5.0752,
+    "lng": -42.7940,
+    "missas": {
+      "domingo": ["8h", "11h", "17h", "19h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": ["18h"],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["15h às 17h30"],
+      "terca": ["15h às 17h30"],
+      "quarta": ["15h às 17h30"],
+      "quinta": ["15h às 17h30"]
+    },
+    "adoracao": {
+      "sexta": ["18h"]
+    }
+  },
+  {
+    "id": 9,
+    "nome": "Paróquia N. S. do Amparo - Matriz",
+    "endereco": "Centro",
+    "bairro": "Centro",
+    "telefone": "3221-8254",
+    "instagram": "",
+    "lat": -5.0880,
+    "lng": -42.8050,
+    "missas": {
+      "domingo": ["7h", "9h", "11h"],
+      "segunda": ["7h15", "12h"],
+      "terca": ["7h15", "12h"],
+      "quarta": ["7h15", "12h"],
+      "quinta": ["7h15", "12h"],
+      "sexta": ["7h15", "12h"],
+      "sabado": ["12h", "17h"]
+    },
+    "confissoes": {
+      "segunda": ["Após missa das 7h15"],
+      "terca": ["Após missa das 7h15"],
+      "quarta": ["Após missa das 7h15"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 10,
+    "nome": "Paróquia São Benedito",
+    "endereco": "Centro",
+    "bairro": "Centro",
+    "telefone": "3222-2667",
+    "instagram": "",
+    "lat": -5.0895,
+    "lng": -42.8040,
+    "missas": {
+      "domingo": ["6h30", "9h", "11h", "17h"],
+      "segunda": ["6h30", "17h30"],
+      "terca": ["6h30", "17h30"],
+      "quarta": ["6h30", "17h30"],
+      "quinta": ["6h30", "17h30"],
+      "sexta": ["6h30", "17h30"],
+      "sabado": ["6h30", "17h"]
+    },
+    "confissoes": {
+      "segunda": ["14h30 às 16h30"],
+      "quarta": ["14h30 às 16h30"],
+      "sexta": ["14h30 às 16h30"]
+    },
+    "adoracao": {
+      "domingo": ["16h"]
+    }
+  },
+  {
+    "id": 11,
+    "nome": "Paróquia Santíssima Trindade",
+    "endereco": "Teresina",
+    "bairro": "Teresina",
+    "telefone": "3305-3327",
+    "instagram": "",
+    "lat": -5.0830,
+    "lng": -42.7820,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": ["7h"],
+      "sabado": []
+    },
+    "confissoes": {
+      "domingo": ["9h às 11h"],
+      "segunda": ["9h às 11h"]
+    },
+    "adoracao": {
+      "domingo": ["6h às 11h", "16h às 20h"],
+      "segunda": ["8h às 12h", "14h às 21h"],
+      "terca": ["8h às 12h", "14h às 21h"],
+      "quarta": ["8h às 12h", "14h às 21h"],
+      "quinta": ["8h às 12h", "14h às 21h"],
+      "sexta": ["8h às 12h", "14h às 21h"],
+      "sabado": ["8h às 12h", "16h às 20h"]
+    }
+  },
+  {
+    "id": 12,
+    "nome": "Paróquia Cristo Libertador",
+    "endereco": "R 16, Renascença II",
+    "bairro": "Renascença II",
+    "telefone": "",
+    "instagram": "paroquiacristolibertador",
+    "lat": -5.0680,
+    "lng": -42.7775,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["18h30"],
+      "terca": ["18h30"],
+      "quarta": ["18h30"],
+      "quinta": ["18h30"],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "quinta": ["16h"],
+      "sexta": ["16h"],
+      "domingo": ["19h30 às 21h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 13,
+    "nome": "Paróquia de Cristo Rei - Matriz",
+    "endereco": "Cristo Rei",
+    "bairro": "Cristo Rei",
+    "telefone": "98875-5745",
+    "instagram": "paroquiadecristoreithe",
+    "lat": -5.0740,
+    "lng": -42.7810,
+    "missas": {
+      "domingo": ["7h", "17h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "domingo": ["20 min antes ou após missas"],
+      "segunda": ["15h às 16h45"],
+      "sexta": ["16h"]
+    },
+    "adoracao": {
+      "segunda": ["8h às 12h", "14h às 18h"],
+      "terca": ["8h às 12h", "14h às 18h"],
+      "quarta": ["8h às 12h", "14h às 18h"],
+      "quinta": ["8h às 12h", "14h às 18h"],
+      "sexta": ["8h às 12h", "14h às 18h"]
+    }
+  },
+  {
+    "id": 14,
+    "nome": "Paróquia Imaculada Conceição - Vila Bandeirantes",
+    "endereco": "Av Zequinha Freire, s/n - Vila Bandeirantes",
+    "bairro": "Vila Bandeirantes",
+    "telefone": "",
+    "instagram": "paroquiaimaculada08",
+    "lat": -5.0960,
+    "lng": -42.7890,
+    "missas": {
+      "domingo": ["7h", "18h"],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": ["19h"]
+    },
+    "confissoes": {
+      "segunda": ["15h às 18h"],
+      "quarta": ["9h às 12h"],
+      "quinta": ["15h às 18h"],
+      "sexta": ["15h às 18h"]
+    },
+    "adoracao": {
+      "sabado": ["19h"]
+    }
+  },
+  {
+    "id": 15,
+    "nome": "Paróquia Imaculada Conceição - Aeroporto",
+    "endereco": "Travessa Crato, 50 - Aeroporto",
+    "bairro": "Aeroporto",
+    "telefone": "",
+    "instagram": "paroquiaimaculadaaeroporto",
+    "lat": -5.0590,
+    "lng": -42.8210,
+    "missas": {
+      "domingo": ["9h", "19h"],
+      "segunda": ["18h"],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": ["19h"],
+      "sabado": ["12h"]
+    },
+    "confissoes": {
+      "quinta": ["15h30 às 17h30"],
+      "sabado": ["15h30 às 18h"]
+    },
+    "adoracao": {
+      "segunda": ["8h às 12h", "14h às 18h"]
+    }
+  },
+  {
+    "id": 16,
+    "nome": "Paróquia N. S. da Glória - Ininga",
+    "endereco": "R Cícero Carvalho, 2851 - Planalto Ininga",
+    "bairro": "Ininga",
+    "telefone": "3233-6953",
+    "instagram": "paroquiansdagloria",
+    "lat": -5.0615,
+    "lng": -42.7650,
+    "missas": {
+      "domingo": ["7h", "17h"],
+      "segunda": ["7h"],
+      "terca": ["7h"],
+      "quarta": ["7h"],
+      "quinta": ["7h"],
+      "sexta": ["7h"],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {
+      "domingo": ["Após a missa das 7h"]
+    }
+  },
+  {
+    "id": 17,
+    "nome": "Paróquia N. S. de Lourdes - Vermelha",
+    "endereco": "Vermelha",
+    "bairro": "Vermelha",
+    "telefone": "3301-1431",
+    "instagram": "",
+    "lat": -5.0870,
+    "lng": -42.7620,
+    "missas": {
+      "domingo": ["8h", "18h30"],
+      "segunda": ["18h30"],
+      "terca": ["18h30"],
+      "quarta": ["18h30"],
+      "quinta": ["18h30"],
+      "sexta": ["18h30"],
+      "sabado": ["18h30"]
+    },
+    "confissoes": {
+      "terca": ["15h às 18h"],
+      "quinta": ["15h às 18h"],
+      "sexta": ["15h às 18h"],
+      "sabado": ["15h às 18h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 18,
+    "nome": "Paróquia São João XXIII e São João Batista",
+    "endereco": "Teresina",
+    "bairro": "Teresina",
+    "telefone": "3233-2290",
+    "instagram": "",
+    "lat": -5.0550,
+    "lng": -42.7720,
+    "missas": {
+      "domingo": ["7h30", "18h30"],
+      "segunda": ["18h30"],
+      "terca": ["18h30"],
+      "quarta": ["18h30"],
+      "quinta": ["18h30"],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["15h às 18h"],
+      "terca": ["15h às 18h"],
+      "quarta": ["15h às 18h"],
+      "quinta": ["15h às 18h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 19,
+    "nome": "Paróquia São Raimundo Nonato - Piçarra",
+    "endereco": "Piçarra",
+    "bairro": "Piçarra",
+    "telefone": "3085-0340",
+    "instagram": "",
+    "lat": -5.1020,
+    "lng": -42.7990,
+    "missas": {
+      "domingo": ["6h30", "8h", "19h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": ["19h"],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["17h às 18h"],
+      "terca": ["17h às 18h"],
+      "quarta": ["17h às 18h"],
+      "quinta": ["17h às 18h"]
+    },
+    "adoracao": {
+      "sexta": ["17h"]
+    }
+  },
+  {
+    "id": 20,
+    "nome": "Paróquia N. S. de Guadalupe - Esplanada",
+    "endereco": "Esplanada",
+    "bairro": "Esplanada",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.0810,
+    "lng": -42.7870,
+    "missas": {
+      "domingo": ["8h", "18h"],
+      "segunda": ["6h"],
+      "terca": ["6h"],
+      "quarta": ["6h"],
+      "quinta": ["6h"],
+      "sexta": ["6h"],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 21,
+    "nome": "Paróquia N. S. da Imaculada Conceição - Morada Nova",
+    "endereco": "Morada Nova",
+    "bairro": "Morada Nova",
+    "telefone": "",
+    "instagram": "imaculadamoradanova",
+    "lat": -5.1150,
+    "lng": -42.7810,
+    "missas": {
+      "domingo": ["7h30", "9h30", "17h30"],
+      "segunda": ["19h"],
+      "terca": ["19h"],
+      "quarta": ["19h"],
+      "quinta": ["19h"],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["15h às 18h"],
+      "terca": ["15h às 18h"],
+      "quarta": ["15h às 18h"],
+      "quinta": ["15h às 18h"]
+    },
+    "adoracao": {
+      "segunda": ["18h"],
+      "quarta": ["18h"],
+      "sexta": ["18h"]
+    }
+  },
+  {
+    "id": 22,
+    "nome": "Paróquia São Francisco de Assis - Cidade Nova",
+    "endereco": "Av. Barão de Castelo Branco, 759 - Cidade Nova",
+    "bairro": "Cidade Nova",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.0660,
+    "lng": -42.7920,
+    "missas": {
+      "domingo": [],
+      "segunda": ["18h"],
+      "terca": ["19h"],
+      "quarta": ["19h"],
+      "quinta": [],
+      "sexta": ["18h"],
+      "sabado": []
+    },
+    "confissoes": {
+      "terca": ["14h30 às 17h30"],
+      "quarta": ["14h30 às 17h30"],
+      "quinta": ["14h30 às 17h30"]
+    },
+    "adoracao": {
+      "segunda": ["18h"]
+    }
+  },
+  {
+    "id": 23,
+    "nome": "Paróquia São Cristóvão",
+    "endereco": "Morada do Sol",
+    "bairro": "Morada do Sol",
+    "telefone": "3214-1783",
+    "instagram": "",
+    "lat": -5.0725,
+    "lng": -42.7748,
+    "missas": {
+      "domingo": ["7h", "10h", "18h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": ["18h"],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["15h às 17h30"],
+      "terca": ["15h às 17h30"],
+      "quarta": ["15h às 17h30"],
+      "quinta": ["15h às 17h30"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 24,
+    "nome": "Santuário São Francisco de Assis - Dirceu I",
+    "endereco": "Dirceu I",
+    "bairro": "Dirceu I",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.1070,
+    "lng": -42.7760,
+    "missas": {
+      "domingo": ["7h", "9h", "19h"],
+      "segunda": ["19h"],
+      "terca": ["19h"],
+      "quarta": ["19h"],
+      "quinta": ["19h"],
+      "sexta": ["19h"],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["15h às 16h30"],
+      "quarta": ["15h às 16h30"],
+      "sexta": ["15h às 16h30"],
+      "sabado": ["15h às 16h30"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 25,
+    "nome": "Paróquia São José Operário",
+    "endereco": "Teresina",
+    "bairro": "Teresina",
+    "telefone": "98802-2779",
+    "instagram": "psje.ig",
+    "lat": -5.0980,
+    "lng": -42.8020,
+    "missas": {
+      "domingo": ["6h", "8h", "17h"],
+      "segunda": ["19h"],
+      "terca": ["19h"],
+      "quarta": ["19h"],
+      "quinta": ["19h"],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "sabado": ["9h às 12h", "15h às 19h"]
+    },
+    "adoracao": {
+      "sexta": ["18h"]
+    }
+  },
+  {
+    "id": 26,
+    "nome": "Paróquia N. S. do Rosário - Cabral",
+    "endereco": "Cabral",
+    "bairro": "Cabral",
+    "telefone": "3025-6560",
+    "instagram": "senhora_dorosario",
+    "lat": -5.0860,
+    "lng": -42.7955,
+    "missas": {
+      "domingo": ["7h", "9h", "18h30"],
+      "segunda": ["18h"],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": ["18h"]
+    },
+    "confissoes": {
+      "segunda": ["Agendar secretaria"],
+      "sexta": ["Agendar secretaria"]
+    },
+    "adoracao": {
+      "domingo": ["15h"]
+    }
+  },
+  {
+    "id": 27,
+    "nome": "Paróquia Menino Jesus de Praga - Saci",
+    "endereco": "Saci",
+    "bairro": "Saci",
+    "telefone": "3227-1180",
+    "instagram": "paroquiameninojesus.the",
+    "lat": -5.0920,
+    "lng": -42.7860,
+    "missas": {
+      "domingo": ["7h", "17h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["15h às 18h"],
+      "quinta": ["15h às 18h"]
+    },
+    "adoracao": {
+      "domingo": ["18h"],
+      "segunda": ["15h às 18h"],
+      "terca": ["15h às 18h"],
+      "quarta": ["15h às 18h"],
+      "quinta": ["15h às 18h"]
+    }
+  },
+  {
+    "id": 28,
+    "nome": "Paróquia N. S. de Nazaré - Bela Vista",
+    "endereco": "Bela Vista",
+    "bairro": "Bela Vista",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.0770,
+    "lng": -42.7680,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["6h"],
+      "quinta": [],
+      "sexta": ["18h"],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 29,
+    "nome": "Paróquia São Pedro Apóstolo",
+    "endereco": "Av. Valter Alencar, 2555 - São Pedro",
+    "bairro": "São Pedro",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.0650,
+    "lng": -42.8090,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["18h30"],
+      "terca": ["18h30"],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "quinta": ["16h30"],
+      "sexta": ["16h30"]
+    },
+    "adoracao": {
+      "sexta": ["18h"]
+    }
+  },
+  {
+    "id": 30,
+    "nome": "Paróquia N. S. da Vitória e São José",
+    "endereco": "Conjunto Planalto Uruguai - Vale Quem Tem",
+    "bairro": "Vale Quem Tem",
+    "telefone": "",
+    "instagram": "paroquiavitoriaesaojose",
+    "lat": -5.1180,
+    "lng": -42.7960,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["19h"],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": ["16h"],
+      "sabado": []
+    },
+    "confissoes": {
+      "domingo": ["8h às 9h30"],
+      "segunda": ["16h às 18h30"],
+      "terca": ["16h às 18h30"],
+      "quarta": ["16h às 18h30"],
+      "quinta": ["9h às 10h30"]
+    },
+    "adoracao": {
+      "domingo": ["19h"]
+    }
+  },
+  {
+    "id": 31,
+    "nome": "Paróquia N. S. de Fátima e Santo Rosário - Gurupi",
+    "endereco": "Gurupi",
+    "bairro": "Gurupi",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.1200,
+    "lng": -42.8150,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["18h30"],
+      "terca": ["18h30"],
+      "quarta": ["18h30"],
+      "quinta": ["18h30"],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "terca": ["16h"],
+      "quarta": ["16h"],
+      "sabado": ["17h"]
+    },
+    "adoracao": {
+      "quinta": ["17h às 18h"]
+    }
+  },
+  {
+    "id": 32,
+    "nome": "Mosteiro Maria Rosa Mística",
+    "endereco": "R Manoel Nogueira Lima, 1531 - Jóquei",
+    "bairro": "Jóquei",
+    "telefone": "",
+    "instagram": "mosteirorosamistica",
+    "lat": -5.0795,
+    "lng": -42.8098,
+    "missas": {
+      "domingo": ["18h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": ["18h"],
+      "quinta": ["18h"],
+      "sexta": ["18h"],
+      "sabado": ["17h"]
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 33,
+    "nome": "Instituto Hesed - Mosteiro N. S. das Dores",
+    "endereco": "Teresina",
+    "bairro": "Teresina",
+    "telefone": "3029-9001",
+    "instagram": "hesed.teresina",
+    "lat": -5.0840,
+    "lng": -42.7830,
+    "missas": {
+      "domingo": ["10h30"],
+      "segunda": ["7h30"],
+      "terca": ["7h30"],
+      "quarta": ["7h30"],
+      "quinta": ["7h30"],
+      "sexta": ["13h30"],
+      "sabado": ["7h30"]
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 34,
+    "nome": "Paróquia São João Evangelista e São João Batista - Parque Piauí",
+    "endereco": "Parque Piauí",
+    "bairro": "Parque Piauí",
+    "telefone": "99947-1399",
+    "instagram": "",
+    "lat": -5.1050,
+    "lng": -42.8200,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["18h"],
+      "terca": ["18h"],
+      "quarta": [],
+      "quinta": [],
+      "sexta": ["16h"],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 35,
+    "nome": "Paróquia N. S. da Conceição Aparecida - Renascença I",
+    "endereco": "Renascença I",
+    "bairro": "Renascença I",
+    "telefone": "3231-1887",
+    "instagram": "pnscaparecida",
+    "lat": -5.0700,
+    "lng": -42.7800,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": ["19h"],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 36,
+    "nome": "Paróquia Santuário N. S. da Paz - Vila da Paz",
+    "endereco": "Bairro Vila da Paz",
+    "bairro": "Vila da Paz",
+    "telefone": "",
+    "instagram": "sagradafamilia.pnsps",
+    "lat": -5.0780,
+    "lng": -42.8180,
+    "missas": {
+      "domingo": ["7h", "17h"],
+      "segunda": ["19h"],
+      "terca": ["19h"],
+      "quarta": ["19h"],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["15h às 18h"],
+      "quarta": ["15h às 18h"]
+    },
+    "adoracao": {
+      "domingo": ["15h"]
+    }
+  },
+  {
+    "id": 37,
+    "nome": "Paróquia Santa Luzia - Promorar",
+    "endereco": "Promorar",
+    "bairro": "Promorar",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.1100,
+    "lng": -42.8130,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "quinta": ["15h às 18h"],
+      "sexta": ["15h às 18h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 38,
+    "nome": "Paróquia Santa Teresinha do Menino Jesus - Satélite",
+    "endereco": "R Mercúrio, 4473 - Satélite",
+    "bairro": "Satélite",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.0620,
+    "lng": -42.7600,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "segunda": ["16h"],
+      "quinta": ["15h"],
+      "sexta": ["15h", "16h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 39,
+    "nome": "Paróquia N. S. do Rosário de Fátima - Santa Fé",
+    "endereco": "Santa Fé",
+    "bairro": "Santa Fé",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.0490,
+    "lng": -42.7900,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": ["19h"],
+      "sabado": ["19h30"]
+    },
+    "confissoes": {
+      "segunda": ["16h às 18h"],
+      "quarta": ["16h às 18h"],
+      "sabado": ["16h às 18h"]
+    },
+    "adoracao": {
+      "segunda": ["18h"],
+      "sabado": ["19h"]
+    }
+  },
+  {
+    "id": 40,
+    "nome": "Paróquia Santa Joana d'Arc - Mocambinho I",
+    "endereco": "Mocambinho I",
+    "bairro": "Mocambinho",
+    "telefone": "",
+    "instagram": "",
+    "lat": -5.0530,
+    "lng": -42.8050,
+    "missas": {
+      "domingo": ["7h", "19h"],
+      "segunda": ["19h"],
+      "terca": ["19h"],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 41,
+    "nome": "Paróquia São Paulo - Mocambinho",
+    "endereco": "R Bertolinia, 5456 - Bom Jesus",
+    "bairro": "Mocambinho",
+    "telefone": "99829-6280",
+    "instagram": "paroquiasaopaulo_the",
+    "lat": -5.0510,
+    "lng": -42.8020,
+    "missas": {
+      "domingo": ["7h", "18h30"],
+      "segunda": ["19h"],
+      "terca": ["19h"],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "quinta": ["15h às 18h"],
+      "sexta": ["15h às 18h"]
+    },
+    "adoracao": {}
+  },
+  {
+    "id": 42,
+    "nome": "Paróquia N. S. das Candeias - Morros",
+    "endereco": "Av. Aviador Rossini Morada Luna, 3953 - Morros",
+    "bairro": "Morros",
+    "telefone": "",
+    "instagram": "igrejadecandeias",
+    "lat": -5.0580,
+    "lng": -42.7840,
+    "missas": {
+      "domingo": ["10h", "19h"],
+      "segunda": ["19h"],
+      "terca": [],
+      "quarta": ["18h"],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
+    "id": 43,
+    "nome": "Paróquia N. S. do Carmo - Santa Maria da Codipi",
+    "endereco": "R Raimundo Portela, 1578 - Santa Maria da Codipi",
+    "bairro": "Codipi",
+    "telefone": "",
+    "instagram": "paroquiandocarmo",
+    "lat": -5.0480,
+    "lng": -42.7920,
+    "missas": {
+      "domingo": [],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": ["19h"],
+      "sabado": ["17h"]
+    },
+    "confissoes": {},
+    "adoracao": {}
+  }
+]
