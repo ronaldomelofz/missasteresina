@@ -219,7 +219,7 @@ export default function App() {
       <header className="site-header">
         <div className="header-inner">
           <div className="header-brand">
-            <img src="/escudo-vaticano.svg" alt="Escudo do Vaticano" className="header-vatican-shield" />
+            <img src="/brasao_de_armas.png" alt="Brasao do Vaticano" className="header-vatican-shield" />
             <div>
               <div className="header-title">Missas Teresina</div>
             </div>
@@ -233,6 +233,7 @@ export default function App() {
               <div className="stat-number" style={{ color: '#52C488' }}>{openCount}</div>
               <div className="stat-label">Ativos</div>
             </div>
+            <img src="/bandeira_vaticano.png" alt="Bandeira do Vaticano" className="header-vatican-flag" />
           </div>
         </div>
       </header>
@@ -429,6 +430,9 @@ export default function App() {
       </div>
 
       <footer className="site-footer">
+        <div className="footer-shields">
+          <img src="/brasao_arquidiocese_teresina.png" alt="Brasao da Arquidiocese de Teresina" className="footer-shield-arch" />
+        </div>
         <span className="footer-cross">✝</span>
         Dados extraídos da Arquidiocese de Teresina — Centro Pastoral Paulo VI · Atualizado em 17/04/2026
         <br />

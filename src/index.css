@@ -74,6 +74,14 @@ body {
   object-fit: contain;
 }
 
+.header-vatican-flag {
+  width: 54px;
+  height: 34px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 4px;
+}
+
 .header-title {
   font-family: 'Cinzel', serif;
   font-size: 1.45rem;
@@ -903,6 +911,18 @@ body {
   border-top: 1px solid var(--separator);
   font-size: 0.72rem;
   color: var(--ink-faint);
+}
+
+.footer-shields {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-shield-arch {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
 }
 
 .footer-cross {
