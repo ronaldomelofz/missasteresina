@@ -1,8 +1,6 @@
-import { useState, useMemo, lazy, Suspense } from 'react'
+import { useState, useMemo } from 'react'
 import igrejas from './data/igrejas.json'
 import ChurchModal from './components/ChurchModal.jsx'
-
-const MapView = lazy(() => import('./components/MapView.jsx'))
 
 const DAYS = [
   { key: 'domingo', label: 'Dom' },
@@ -143,7 +141,6 @@ export default function App() {
   const [showAdoracao, setShowAdoracao] = useState(true)
   const [onlyActive, setOnlyActive] = useState(false)
   const [searchTerm, setSearchTerm] = useState('')
-  const [activeView, setActiveView] = useState('list') // 'list' | 'map'
   const [selectedChurch, setSelectedChurch] = useState(null)
 
   // Filtro principal
@@ -199,7 +196,6 @@ export default function App() {
   }, [selectedDay, timeMin, timeMax, showMissas, showConfissoes, showAdoracao, onlyActive, searchTerm])
 
   const openCount = filtered.filter(c => c._isOpen).length
-  const filteredIds = useMemo(() => new Set(filtered.filter(c => c._isOpen).map(c => c.id)), [filtered])
 
   function resetFilters() {
     setSelectedDay(getTodayKey())
@@ -341,21 +337,6 @@ export default function App() {
             </div>
           </div>
 
-          {/* Legenda do mapa */}
-          <div className="filter-card">
-            <div className="filter-card-title">🗺️ Legenda do Mapa</div>
-            <div className="map-legend">
-              <div className="legend-item">
-                <div className="legend-dot legend-green"></div>
-                <span>Ativo no filtro</span>
-              </div>
-              <div className="legend-item">
-                <div className="legend-dot legend-amber"></div>
-                <span>Sem atividade</span>
-              </div>
-            </div>
-          </div>
-
           {/* Resumo */}
           <div className="results-summary">
             <div className="results-count">
@@ -379,53 +360,23 @@ export default function App() {
 
         {/* Área de conteúdo */}
         <main className="content-area">
-          {/* Abas */}
-          <div className="view-tabs">
-            <button
-              className={`tab-btn ${activeView === 'list' ? 'active' : ''}`}
-              onClick={() => setActiveView('list')}
-            >
-              <span className="tab-icon">☰</span> Lista
-            </button>
-            <button
-              className={`tab-btn ${activeView === 'map' ? 'active' : ''}`}
-              onClick={() => setActiveView('map')}
-            >
-              <span className="tab-icon">🗺️</span> Mapa
-            </button>
+          <div className="churches-grid">
+            {filtered.length === 0 ? (
+              <div className="empty-state">
+                <div className="empty-icon">⛪</div>
+                <div className="empty-text">Nenhuma igreja encontrada com esses filtros</div>
+              </div>
+            ) : (
+              filtered.map(church => (
+                <ChurchCard
+                  key={church.id}
+                  church={church}
+                  isOpen={church._isOpen}
+                  onSelect={setSelectedChurch}
+                />
+              ))
+            )}
           </div>
-
-          {/* Mapa */}
-          {activeView === 'map' && (
-            <Suspense fallback={<div style={{ height: 500, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--ink-faint)' }}>Carregando mapa...</div>}>
-              <MapView
-                churches={igrejas}
-                filteredIds={filteredIds}
-                onSelectChurch={setSelectedChurch}
-              />
-            </Suspense>
-          )}
-
-          {/* Lista */}
-          {activeView === 'list' && (
-            <div className="churches-grid">
-              {filtered.length === 0 ? (
-                <div className="empty-state">
-                  <div className="empty-icon">⛪</div>
-                  <div className="empty-text">Nenhuma igreja encontrada com esses filtros</div>
-                </div>
-              ) : (
-                filtered.map(church => (
-                  <ChurchCard
-                    key={church.id}
-                    church={church}
-                    isOpen={church._isOpen}
-                    onSelect={setSelectedChurch}
-                  />
-                ))
-              )}
-            </div>
-          )}
         </main>
       </div>
 
