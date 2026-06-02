@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   background-color: var(--cream);
   color: var(--ink);
   line-height: 1.6;
@@ -68,27 +68,19 @@ body {
   gap: 12px;
 }
 
-.header-cross {
-  font-size: 22px;
-  color: var(--gold-light);
-  line-height: 1;
+.header-vatican-shield {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
 }
 
 .header-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
+  font-family: 'Cinzel', serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   color: var(--gold-pale);
   line-height: 1.1;
-}
-
-.header-subtitle {
-  font-size: 0.7rem;
-  font-weight: 300;
-  color: var(--gold-light);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
 }
 
 .header-stats {
@@ -103,7 +95,7 @@ body {
 }
 
 .stat-number {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--gold-light);
@@ -146,7 +138,7 @@ body {
 }
 
 .filter-card-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -170,7 +162,7 @@ body {
   border-radius: var(--radius-sm);
   background: white;
   color: var(--ink-soft);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-size: 0.72rem;
   font-weight: 500;
   cursor: pointer;
@@ -201,46 +193,41 @@ body {
 }
 
 .time-highlight {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1rem;
   font-weight: 600;
   color: var(--gold);
 }
 
-.time-slider {
-  width: 100%;
-  height: 4px;
-  -webkit-appearance: none;
-  appearance: none;
-  background: linear-gradient(to right, var(--gold) 0%, var(--gold) var(--progress, 0%), var(--separator) var(--progress, 0%), var(--separator) 100%);
-  border-radius: 4px;
-  outline: none;
-  cursor: pointer;
-  margin: 8px 0;
+.time-select-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
-.time-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 18px;
-  height: 18px;
-  background: var(--ink);
-  border: 2.5px solid var(--gold);
-  border-radius: 50%;
-  cursor: pointer;
-  transition: transform 0.2s;
-  box-shadow: var(--shadow-sm);
-}
-
-.time-slider::-webkit-slider-thumb:hover {
-  transform: scale(1.2);
-}
-
-.time-labels {
+.time-select-grid label {
   display: flex;
-  justify-content: space-between;
-  font-size: 0.68rem;
-  color: var(--ink-faint);
-  margin-top: 4px;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.time-select {
+  border: 1.5px solid var(--separator);
+  border-radius: var(--radius-sm);
+  background: white;
+  color: var(--ink);
+  font-size: 0.86rem;
+  padding: 8px 10px;
+  font-family: 'Crimson Text', serif;
+  outline: none;
+}
+
+.time-select:focus {
+  border-color: var(--gold);
 }
 
 /* Tipo de atividade */
@@ -300,7 +287,7 @@ body {
   padding: 10px 14px;
   border: 1.5px solid var(--separator);
   border-radius: var(--radius-sm);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-size: 0.85rem;
   color: var(--ink);
   background: white;
@@ -358,7 +345,7 @@ body {
 }
 
 .results-count strong {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1.1rem;
   color: var(--gold);
 }
@@ -370,7 +357,7 @@ body {
   color: var(--ink-faint);
   cursor: pointer;
   text-decoration: underline;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   transition: color 0.2s;
 }
 
@@ -418,7 +405,7 @@ body {
   border: none;
   border-radius: 7px;
   background: none;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-size: 0.82rem;
   font-weight: 500;
   color: var(--ink-muted);
@@ -455,7 +442,7 @@ body {
 .map-container .leaflet-container {
   height: 100%;
   width: 100%;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
 }
 
 /* === LISTA DE CARDS === */
@@ -511,7 +498,7 @@ body {
 }
 
 .card-name {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1rem;
   font-weight: 600;
   color: var(--ink);
@@ -672,7 +659,7 @@ body {
 }
 
 .modal-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1.4rem;
   font-weight: 400;
   color: var(--gold-pale);
@@ -714,7 +701,7 @@ body {
 }
 
 .modal-section-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1rem;
   font-weight: 600;
   color: var(--ink-soft);
@@ -802,7 +789,7 @@ body {
   color: var(--gold-pale);
   border: none;
   border-radius: var(--radius-sm);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-size: 0.82rem;
   font-weight: 500;
   cursor: pointer;
@@ -823,7 +810,7 @@ body {
   color: var(--ink-soft);
   border: 1.5px solid var(--separator);
   border-radius: var(--radius-sm);
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   font-size: 0.82rem;
   font-weight: 500;
   cursor: pointer;
@@ -840,11 +827,11 @@ body {
 .leaflet-popup-content-wrapper {
   border-radius: 10px !important;
   box-shadow: var(--shadow-lg) !important;
-  font-family: 'DM Sans', sans-serif !important;
+  font-family: 'Crimson Text', serif !important;
 }
 
 .popup-name {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--ink);
@@ -873,7 +860,7 @@ body {
   font-weight: 500;
   cursor: pointer;
   border: none;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Crimson Text', serif;
   transition: background 0.2s;
 }
 
@@ -894,7 +881,7 @@ body {
 }
 
 .empty-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cinzel', serif;
   font-size: 1.2rem;
   color: var(--ink-muted);
 }

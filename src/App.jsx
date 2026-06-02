@@ -14,6 +14,8 @@ const DAYS = [
   { key: 'sabado', label: 'Sáb' },
 ]
 
+const TIME_OPTIONS = Array.from({ length: 48 }, (_, i) => i * 0.5)
+
 // Retorna o dia atual da semana
 function getTodayKey() {
   const map = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado']
@@ -135,7 +137,7 @@ function ChurchCard({ church, isOpen, onSelect }) {
 export default function App() {
   const [selectedDay, setSelectedDay] = useState(getTodayKey())
   const [timeMin, setTimeMin] = useState(0)
-  const [timeMax, setTimeMax] = useState(23)
+  const [timeMax, setTimeMax] = useState(23.5)
   const [showMissas, setShowMissas] = useState(true)
   const [showConfissoes, setShowConfissoes] = useState(true)
   const [showAdoracao, setShowAdoracao] = useState(true)
@@ -202,7 +204,7 @@ export default function App() {
   function resetFilters() {
     setSelectedDay(getTodayKey())
     setTimeMin(0)
-    setTimeMax(23)
+    setTimeMax(23.5)
     setShowMissas(true)
     setShowConfissoes(true)
     setShowAdoracao(true)
@@ -210,20 +212,16 @@ export default function App() {
     setSearchTerm('')
   }
 
-  const formatHour = (h) => {
-    if (h === 0) return '00h'
-    return `${h}h${h % 1 !== 0 ? '30' : ''}`
-  }
+  const formatHour = (h) => `${String(Math.floor(h)).padStart(2, '0')}h${h % 1 !== 0 ? '30' : ''}`
 
   return (
     <>
       <header className="site-header">
         <div className="header-inner">
           <div className="header-brand">
-            <span className="header-cross">✝</span>
+            <img src="/escudo-vaticano.svg" alt="Escudo do Vaticano" className="header-vatican-shield" />
             <div>
-              <div className="header-title">Missas em Teresina</div>
-              <div className="header-subtitle">Arquidiocese de Teresina · PI</div>
+              <div className="header-title">Missas Teresina</div>
             </div>
           </div>
           <div className="header-stats">
@@ -278,36 +276,39 @@ export default function App() {
               <span>A partir de <span className="time-highlight">{formatHour(timeMin)}</span></span>
               <span>Até <span className="time-highlight">{formatHour(timeMax)}</span></span>
             </div>
-            <input
-              type="range"
-              className="time-slider"
-              min="0"
-              max="23"
-              value={timeMin}
-              onChange={e => {
-                const v = parseInt(e.target.value)
-                setTimeMin(Math.min(v, timeMax - 1))
-              }}
-              style={{ '--progress': `${(timeMin / 23) * 100}%` }}
-            />
-            <input
-              type="range"
-              className="time-slider"
-              min="0"
-              max="23"
-              value={timeMax}
-              onChange={e => {
-                const v = parseInt(e.target.value)
-                setTimeMax(Math.max(v, timeMin + 1))
-              }}
-              style={{ '--progress': `${(timeMax / 23) * 100}%` }}
-            />
-            <div className="time-labels">
-              <span>0h</span>
-              <span>6h</span>
-              <span>12h</span>
-              <span>18h</span>
-              <span>23h</span>
+            <div className="time-select-grid">
+              <label>
+                De
+                <select
+                  className="time-select"
+                  value={timeMin}
+                  onChange={e => {
+                    const v = parseFloat(e.target.value)
+                    setTimeMin(v)
+                    if (v > timeMax) setTimeMax(v)
+                  }}
+                >
+                  {TIME_OPTIONS.map(t => (
+                    <option key={`min-${t}`} value={t}>{formatHour(t)}</option>
+                  ))}
+                </select>
+              </label>
+              <label>
+                Até
+                <select
+                  className="time-select"
+                  value={timeMax}
+                  onChange={e => {
+                    const v = parseFloat(e.target.value)
+                    setTimeMax(v)
+                    if (v < timeMin) setTimeMin(v)
+                  }}
+                >
+                  {TIME_OPTIONS.map(t => (
+                    <option key={`max-${t}`} value={t}>{formatHour(t)}</option>
+                  ))}
+                </select>
+              </label>
             </div>
           </div>
 
