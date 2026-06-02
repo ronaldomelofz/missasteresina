@@ -1,36 +1,5 @@
 [
   {
-    "id": 106,
-    "nome": "Capela de Nossa Senhora das Graças",
-    "endereco": "HGV",
-    "bairro": "",
-    "telefone": "",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [],
-      "segunda": [],
-      "terca": [],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [],
-      "sabado": []
-    },
-    "confissoes": {
-      "terca": [
-        "9h30 às 11h30"
-      ],
-      "quarta": [
-        "9h30 às 11h30"
-      ],
-      "sexta": [
-        "9h30 às 11h30"
-      ]
-    },
-    "adoracao": {}
-  },
-  {
     "id": 45,
     "nome": "Capela do cemitério Jardim da Ressurreição",
     "endereco": "Av. Mirtes Melão",
@@ -110,7 +79,8 @@
     "lng": -42.8016,
     "missas": {
       "domingo": [
-        "9h e 17h"
+        "9h",
+        "17h"
       ],
       "segunda": [
         "6h50"
@@ -131,7 +101,8 @@
     },
     "confissoes": {
       "domingo": [
-        "9h e 19h"
+        "9h",
+        "19h"
       ],
       "sabado": [
         "8h30"
@@ -140,7 +111,7 @@
     "adoracao": {}
   },
   {
-    "id": 47,
+    "id": 106,
     "nome": "Capela Nossa Senhora das Graças",
     "endereco": "HGV",
     "bairro": "",
@@ -155,7 +126,8 @@
         "12h"
       ],
       "quarta": [
-        "12h e 17h"
+        "12h",
+        "17h"
       ],
       "quinta": [
         "8h"
@@ -165,7 +137,17 @@
       ],
       "sabado": []
     },
-    "confissoes": {},
+    "confissoes": {
+      "terca": [
+        "9h30 às 11h30"
+      ],
+      "quarta": [
+        "9h30 às 11h30"
+      ],
+      "sexta": [
+        "9h30 às 11h30"
+      ]
+    },
     "adoracao": {}
   },
   {
@@ -258,7 +240,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "9h e 18h"
+        "9h",
+        "18h"
       ],
       "segunda": [],
       "terca": [],
@@ -293,7 +276,8 @@
     "confissoes": {},
     "adoracao": {
       "quinta": [
-        "10h às 12h"
+        "10h às 12h",
+        "15h às 16h"
       ]
     }
   },
@@ -343,7 +327,8 @@
     "lng": -42.7874363,
     "missas": {
       "domingo": [
-        "10h e 18h30"
+        "10h",
+        "18h30"
       ],
       "segunda": [
         "18h"
@@ -457,7 +442,10 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "19h"
+        "19h",
+        "8h",
+        "18h",
+        "17h"
       ],
       "segunda": [],
       "terca": [],
@@ -472,31 +460,6 @@
     "adoracao": {}
   },
   {
-    "id": 107,
-    "nome": "Ig. de Santa Clara",
-    "endereco": "R Sotero Vaz da Silveira, 4102",
-    "bairro": "Primavera,",
-    "telefone": "3221-4094",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [],
-      "segunda": [],
-      "terca": [],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [],
-      "sabado": []
-    },
-    "confissoes": {
-      "quinta": [
-        "15h às 18h"
-      ]
-    },
-    "adoracao": {}
-  },
-  {
     "id": 56,
     "nome": "Igr. de N. Senhora de Fátima e Santos Francisco e Jacinta",
     "endereco": "Parque Brasil 3",
@@ -507,7 +470,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [],
@@ -549,38 +513,17 @@
     "adoracao": {}
   },
   {
-    "id": 114,
+    "id": 107,
     "nome": "Igr. de Santa Clara",
     "endereco": "R Sotero Vaz da Silveira, 4102",
     "bairro": "Real Copagre",
-    "telefone": "99994-0016",
+    "telefone": "3221-4094 / 99994-0016",
     "instagram": "santaclararealcopagre",
     "lat": null,
     "lng": null,
     "missas": {
-      "domingo": [],
-      "segunda": [],
-      "terca": [],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [],
-      "sabado": []
-    },
-    "confissoes": {},
-    "adoracao": {}
-  },
-  {
-    "id": 57,
-    "nome": "Igr. de Santa Clara (R Sotero Vaz da Silveira, 4102 - Real Copagre, 99994-00",
-    "endereco": "",
-    "bairro": "",
-    "telefone": "",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
       "domingo": [
-        "16) 7h"
+        "7h"
       ],
       "segunda": [],
       "terca": [
@@ -593,7 +536,11 @@
       "sexta": [],
       "sabado": []
     },
-    "confissoes": {},
+    "confissoes": {
+      "quinta": [
+        "15h às 18h"
+      ]
+    },
     "adoracao": {}
   },
   {
@@ -607,7 +554,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "10 h e 17h"
+        "10 h",
+        "17h"
       ],
       "segunda": [],
       "terca": [
@@ -615,7 +563,8 @@
       ],
       "quarta": [
         "7h30",
-        "19h ³"
+        "19h ³",
+        "7h30 / 19h ³"
       ],
       "quinta": [
         "7h30"
@@ -661,7 +610,8 @@
     },
     "confissoes": {
       "domingo": [
-        "9h e 18h **"
+        "9h",
+        "18h **"
       ]
     },
     "adoracao": {}
@@ -677,7 +627,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "10h e 19h"
+        "10h",
+        "19h"
       ],
       "segunda": [],
       "terca": [
@@ -801,7 +752,8 @@
     "lng": -42.7398847,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [
         "18h30"
@@ -831,7 +783,8 @@
         "19h30 às 21h"
       ],
       "quarta": [
-        "19h30 às 21h"
+        "19h30 às 21h",
+        "16h"
       ]
     },
     "adoracao": {}
@@ -868,14 +821,16 @@
     "id": 62,
     "nome": "Paróquia de Cristo Rei",
     "endereco": "Matriz",
-    "bairro": "",
-    "telefone": "98875-5745",
+    "bairro": "Capela do Santíssimo (tarde",
+    "telefone": "98875-5745 / 988755745",
     "instagram": "paroquiadecristoreithe",
     "lat": null,
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 17h"
+        "7h",
+        "17h",
+        "9h"
       ],
       "segunda": [],
       "terca": [
@@ -905,44 +860,53 @@
         "16h"
       ]
     },
-    "adoracao": {}
+    "adoracao": {
+      "terca": [
+        "8h às 12h",
+        "14h às 18h"
+      ],
+      "quarta": [
+        "8h às 12h",
+        "14h às 18h"
+      ],
+      "quinta": [
+        "8h às 12h",
+        "14h às 18h"
+      ],
+      "sexta": [
+        "8h às 12h",
+        "14h às 18h"
+      ],
+      "sabado": [
+        "8h às 12h",
+        "14h às 18h"
+      ]
+    }
   },
   {
-    "id": 102,
-    "nome": "Paróquia de Cristo Rei (Matriz) - Capela do Santíssimo",
-    "endereco": "tarde",
+    "id": 117,
+    "nome": "Paróquia de Cristo Rei (Comunidade Aparecida)",
+    "endereco": "",
     "bairro": "",
     "telefone": "",
     "instagram": "",
     "lat": null,
     "lng": null,
     "missas": {
-      "domingo": [],
+      "domingo": [
+        "9h"
+      ],
       "segunda": [],
       "terca": [],
       "quarta": [],
       "quinta": [],
       "sexta": [],
-      "sabado": []
+      "sabado": [
+        "18h30"
+      ]
     },
     "confissoes": {},
-    "adoracao": {
-      "terca": [
-        "14h às 18h"
-      ],
-      "quarta": [
-        "14h às 18h"
-      ],
-      "quinta": [
-        "14h às 18h"
-      ],
-      "sexta": [
-        "14h às 18h"
-      ],
-      "sabado": [
-        "14h às 18h"
-      ]
-    }
+    "adoracao": {}
   },
   {
     "id": 63,
@@ -957,25 +921,32 @@
       "domingo": [
         "7h",
         "9h",
-        "11 e 19h"
+        "11",
+        "19h"
       ],
       "segunda": [
-        "6h e 19h"
+        "6h",
+        "19h"
       ],
       "terca": [
-        "6h e 19h"
+        "6h",
+        "19h"
       ],
       "quarta": [
-        "6h e 19h"
+        "6h",
+        "19h"
       ],
       "quinta": [
-        "6h e 19h"
+        "6h",
+        "19h"
       ],
       "sexta": [
-        "6h e 19h"
+        "6h",
+        "19h"
       ],
       "sabado": [
-        "6h e 19h"
+        "6h",
+        "19h"
       ]
     },
     "confissoes": {
@@ -990,16 +961,19 @@
   },
   {
     "id": 64,
-    "nome": "Paróquia Imaculada Conceição",
-    "endereco": "Travessa Crato, 50",
-    "bairro": "Aeroporto",
-    "telefone": "99994-0016",
+    "nome": "Paróquia Imaculada Conceição (Travessa Crato, 50 - Aeroporto)",
+    "endereco": "Av Zequinha Freire, s/n",
+    "bairro": "Vila Bandeirantes",
+    "telefone": "99994-0016 / 99970-3457",
     "instagram": "paroquiaimaculadaaeroporto",
     "lat": null,
     "lng": null,
     "missas": {
       "domingo": [
-        "9h e 19h"
+        "9h",
+        "19h",
+        "7h",
+        "18h"
       ],
       "segunda": [],
       "terca": [
@@ -1018,10 +992,12 @@
     },
     "confissoes": {
       "terca": [
-        "15h às 18h"
+        "15h às 18h",
+        "15h30 às 17h30"
       ],
       "sexta": [
-        "15h às 18h"
+        "15h às 18h",
+        "15h30 às 18h"
       ],
       "quarta": [
         "9h às 12h"
@@ -1032,7 +1008,8 @@
     },
     "adoracao": {
       "quinta": [
-        "14h às 18h"
+        "14h às 18h",
+        "8h às 12h"
       ],
       "quarta": [
         "19h"
@@ -1050,7 +1027,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "8h e 19h"
+        "8h",
+        "19h"
       ],
       "segunda": [],
       "terca": [
@@ -1081,7 +1059,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 17h"
+        "7h",
+        "17h"
       ],
       "segunda": [],
       "terca": [
@@ -1191,7 +1170,8 @@
     "missas": {
       "domingo": [
         "8h",
-        "10h e 19h"
+        "10h",
+        "19h"
       ],
       "segunda": [],
       "terca": [],
@@ -1220,7 +1200,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [],
@@ -1245,7 +1226,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 17h"
+        "7h",
+        "17h"
       ],
       "segunda": [],
       "terca": [
@@ -1278,27 +1260,6 @@
     "bairro": "",
     "telefone": "99986-8339",
     "instagram": "igrejalauravicuna",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [],
-      "segunda": [],
-      "terca": [],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [],
-      "sabado": []
-    },
-    "confissoes": {},
-    "adoracao": {}
-  },
-  {
-    "id": 70,
-    "nome": "Paróquia N. S. da Glória - Ig. Santa Laura Vicuña -",
-    "endereco": "",
-    "bairro": "",
-    "telefone": "99986-8339",
-    "instagram": "",
     "lat": null,
     "lng": null,
     "missas": {
@@ -1350,10 +1311,10 @@
   },
   {
     "id": 73,
-    "nome": "Paróquia N. S. da Imaculada Conceição",
+    "nome": "Paróquia N. S. da Imaculada Conceição (Igreja S. Paulo - Lourival Parente)",
     "endereco": "Morada Nova",
     "bairro": "Lourival Parente",
-    "telefone": "98879-8828",
+    "telefone": "98879-8828 / 3085-0466",
     "instagram": "imaculadamoradanova",
     "lat": null,
     "lng": null,
@@ -1361,7 +1322,9 @@
       "domingo": [
         "7h30",
         "9h30",
-        "17h30"
+        "17h30",
+        "9h",
+        "17h"
       ],
       "segunda": [],
       "terca": [
@@ -1371,7 +1334,8 @@
         "19h"
       ],
       "quinta": [
-        "19h"
+        "19h",
+        "18h"
       ],
       "sexta": [
         "19h"
@@ -1380,7 +1344,8 @@
     },
     "confissoes": {
       "quinta": [
-        "15h às 18h"
+        "15h às 18h",
+        "17h às 18h"
       ],
       "terca": [
         "15h às 18h"
@@ -1406,7 +1371,7 @@
   },
   {
     "id": 30,
-    "nome": "Paróquia N. S. da Vitória e São José",
+    "nome": "Paróquia N. S. da Vitória e São José (Conj Planalto Uruguai, Vale Quem Tem)",
     "endereco": "Conj Planalto Uruguai, Vale Quem Tem",
     "bairro": "Vale Quem Tem",
     "telefone": "98807-3099",
@@ -1415,7 +1380,8 @@
     "lng": -42.796,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [
         "19h"
@@ -1465,33 +1431,39 @@
     }
   },
   {
-    "id": 74,
-    "nome": "Paróquia N. S. das Dores",
-    "endereco": "Catedral",
+    "id": 118,
+    "nome": "Paróquia N. S. das Dores (Catedral) (15 h às 18 h)",
+    "endereco": "",
     "bairro": "",
-    "telefone": "3222-2584 / 98897-1910",
+    "telefone": "3222-2584 / 3222-2584 / 98897-1910",
     "instagram": "catedraldeteresina",
     "lat": null,
     "lng": null,
     "missas": {
       "domingo": [
         "7h30",
-        "9h30 e 17h"
+        "9h30",
+        "17h"
       ],
       "segunda": [
-        "12h e 17h"
+        "12h",
+        "17h"
       ],
       "terca": [
-        "12h e 17h"
+        "12h",
+        "17h"
       ],
       "quarta": [
-        "12h e 17h"
+        "12h",
+        "17h"
       ],
       "quinta": [
-        "12h e 17h"
+        "12h",
+        "17h"
       ],
       "sexta": [
-        "12h e 17h"
+        "12h",
+        "17h"
       ],
       "sabado": [
         "17h"
@@ -1516,45 +1488,55 @@
   {
     "id": 75,
     "nome": "Paróquia N. S. das Graças",
-    "endereco": "Capelinha de Palha",
+    "endereco": "Av. Duque de Caxias, 5555",
     "bairro": "Buenos Aires",
-    "telefone": "3221-1770",
+    "telefone": "3221-1770 / 3142-1080",
     "instagram": "pnsgnorte",
     "lat": null,
     "lng": null,
     "missas": {
       "domingo": [
         "7h",
-        "11h e 18:30h"
+        "11h",
+        "18:30h",
+        "17h"
       ],
       "segunda": [
         "18h"
       ],
       "terca": [
-        "17h"
+        "17h",
+        "18h"
       ],
       "quarta": [
-        "17h"
+        "17h",
+        "18h"
       ],
       "quinta": [
-        "17h"
+        "17h",
+        "18h"
       ],
       "sexta": [
-        "17h"
+        "17h",
+        "18h"
       ],
       "sabado": [
-        "17h"
+        "17h",
+        "18h"
       ]
     },
     "confissoes": {
       "quarta": [
-        "17h"
+        "17h",
+        "16h às 18h"
       ],
       "quinta": [
-        "17h"
+        "17h",
+        "16h às 18h"
       ],
       "sexta": [
-        "17h"
+        "17h",
+        "16h às 18h"
       ],
       "segunda": [
         "17h"
@@ -1588,6 +1570,64 @@
     }
   },
   {
+    "id": 121,
+    "nome": "Paróquia N. S. das Graças (Capela de Palha)",
+    "endereco": "",
+    "bairro": "",
+    "telefone": "3221-1770",
+    "instagram": "",
+    "lat": null,
+    "lng": null,
+    "missas": {
+      "domingo": [],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {
+      "quarta": [
+        "16h às 18h"
+      ],
+      "quinta": [
+        "16h às 18h"
+      ],
+      "sexta": [
+        "16h às 18h"
+      ]
+    },
+    "adoracao": {
+      "quinta": [
+        "17h"
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "nome": "Paróquia N. S. das Graças (Capela de Santa Gemma Galgani)",
+    "endereco": "",
+    "bairro": "",
+    "telefone": "",
+    "instagram": "",
+    "lat": null,
+    "lng": null,
+    "missas": {
+      "domingo": [
+        "17h"
+      ],
+      "segunda": [],
+      "terca": [],
+      "quarta": [],
+      "quinta": [],
+      "sexta": [],
+      "sabado": []
+    },
+    "confissoes": {},
+    "adoracao": {}
+  },
+  {
     "id": 8,
     "nome": "Paróquia N. S. de Fátima",
     "endereco": "Bairro de Fátima",
@@ -1599,7 +1639,8 @@
     "missas": {
       "domingo": [
         "8h",
-        "11h 17h e 19h"
+        "11h 17h",
+        "19h"
       ],
       "segunda": [
         "18h"
@@ -1686,7 +1727,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [
@@ -1731,7 +1773,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "8h e 18h"
+        "8h",
+        "18h"
       ],
       "segunda": [],
       "terca": [
@@ -1754,9 +1797,9 @@
     "adoracao": {}
   },
   {
-    "id": 79,
-    "nome": "Paróquia N. S. de Guadalupe e São Juan Diego (R São Rdo, 58 Vila Meio Nor",
-    "endereco": "",
+    "id": 116,
+    "nome": "Paróquia N. S. de Guadalupe e São Juan Diego",
+    "endereco": "R São Rdo, 58 Vila Meio Nor",
     "bairro": "",
     "telefone": "te)",
     "instagram": "",
@@ -1787,7 +1830,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "8h e 18h30"
+        "8h",
+        "18h30"
       ],
       "segunda": [
         "18h30"
@@ -1835,7 +1879,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [
         "18h"
@@ -1858,7 +1903,7 @@
   {
     "id": 82,
     "nome": "Paróquia N. S. do Amparo (Matriz)",
-    "endereco": "9 h às 12 h seg a sex",
+    "endereco": "Matriz)  (9 h às 12 h seg a sex",
     "bairro": "",
     "telefone": "3221-8254",
     "instagram": "",
@@ -1867,22 +1912,28 @@
     "missas": {
       "domingo": [
         "7h",
-        "9h e 11h"
+        "9h",
+        "11h"
       ],
       "segunda": [
-        "7h15 e 12h"
+        "7h15",
+        "12h"
       ],
       "terca": [
-        "7h15 e 12h"
+        "7h15",
+        "12h"
       ],
       "quarta": [
-        "7h15 e 12h"
+        "7h15",
+        "12h"
       ],
       "quinta": [
-        "7h15 e 12h"
+        "7h15",
+        "12h"
       ],
       "sexta": [
-        "7h15 e 12h"
+        "7h15",
+        "12h"
       ],
       "sabado": [
         "12h ¹ ou 17h"
@@ -1896,6 +1947,48 @@
         "7h15"
       ]
     },
+    "adoracao": {}
+  },
+  {
+    "id": 120,
+    "nome": "Paróquia N. S. do Amparo (Matriz) (9 h às 12 h seg a sex)",
+    "endereco": "",
+    "bairro": "",
+    "telefone": "3221-8254",
+    "instagram": "",
+    "lat": null,
+    "lng": null,
+    "missas": {
+      "domingo": [
+        "7h",
+        "9h",
+        "11h"
+      ],
+      "segunda": [
+        "7h15",
+        "12h"
+      ],
+      "terca": [
+        "7h15",
+        "12h"
+      ],
+      "quarta": [
+        "7h15",
+        "12h"
+      ],
+      "quinta": [
+        "7h15",
+        "12h"
+      ],
+      "sexta": [
+        "7h15",
+        "12h"
+      ],
+      "sabado": [
+        "12h ¹ ou 17h"
+      ]
+    },
+    "confissoes": {},
     "adoracao": {}
   },
   {
@@ -1928,7 +2021,7 @@
     "nome": "Paróquia N. S. do Perpétuo Socorro",
     "endereco": "Mafrense",
     "bairro": "",
-    "telefone": "98882-0886",
+    "telefone": "98882-0886 / (86) 98882-0886",
     "instagram": "",
     "lat": null,
     "lng": null,
@@ -1951,48 +2044,17 @@
   {
     "id": 104,
     "nome": "Paróquia N. S. do Rosário",
-    "endereco": "Cabral",
+    "endereco": "Cabral)  / 98806-1508 (Whats",
     "bairro": "",
     "telefone": "3025-6560 / 98806-1508 (Whats)",
     "instagram": "",
     "lat": null,
     "lng": null,
     "missas": {
-      "domingo": [],
-      "segunda": [],
-      "terca": [],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [],
-      "sabado": []
-    },
-    "confissoes": {
-      "terca": [
-        "Agendar secr."
-      ],
-      "quinta": [
-        "Agendar secr."
-      ]
-    },
-    "adoracao": {
-      "quinta": [
-        "15h"
-      ]
-    }
-  },
-  {
-    "id": 85,
-    "nome": "Paróquia N. S. do Rosário (Cabral) / 98806-1508",
-    "endereco": "Whats",
-    "bairro": "",
-    "telefone": "3025-6560",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
       "domingo": [
         "7h",
-        "9h e 18h30"
+        "9h",
+        "18h30"
       ],
       "segunda": [],
       "terca": [
@@ -2005,8 +2067,15 @@
       "sexta": [],
       "sabado": []
     },
-    "confissoes": {},
-    "adoracao": {}
+    "confissoes": {
+      "terca": [],
+      "quinta": []
+    },
+    "adoracao": {
+      "quinta": [
+        "15h"
+      ]
+    }
   },
   {
     "id": 86,
@@ -2019,7 +2088,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [
@@ -2063,7 +2133,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [],
@@ -2090,7 +2161,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [],
@@ -2120,7 +2192,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [],
@@ -2137,14 +2210,15 @@
         "15h"
       ],
       "sexta": [
-        "15h e 16h"
+        "15h",
+        "16h"
       ]
     },
     "adoracao": {}
   },
   {
     "id": 90,
-    "nome": "Paróquia Santo Inácio de Loyola",
+    "nome": "Paróquia Santo Inácio de Loyola (Santo Raimundo Nonato - Pedra Mole)",
     "endereco": "Nossa Senhora Aparecida",
     "bairro": "Anita Ferraz",
     "telefone": "",
@@ -2153,7 +2227,10 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "17h"
+        "17h",
+        "7h",
+        "8h",
+        "9h"
       ],
       "segunda": [],
       "terca": [],
@@ -2210,7 +2287,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 17h"
+        "7h",
+        "17h"
       ],
       "segunda": [],
       "terca": [
@@ -2250,7 +2328,9 @@
     "lng": -42.8128219,
     "missas": {
       "domingo": [
-        "17h"
+        "17h",
+        "7h",
+        "19h"
       ],
       "segunda": [
         "18h"
@@ -2268,7 +2348,8 @@
         "18h"
       ],
       "sabado": [
-        "19h"
+        "19h",
+        "7h"
       ]
     },
     "confissoes": {
@@ -2330,25 +2411,32 @@
     "confissoes": {},
     "adoracao": {
       "domingo": [
-        "16h às 20h"
+        "16h às 20h",
+        "6h às 11h"
       ],
       "segunda": [
-        "14h às 21h"
+        "14h às 21h",
+        "8h às 12h"
       ],
       "terca": [
-        "14h às 21h"
+        "14h às 21h",
+        "8h às 12h"
       ],
       "quarta": [
-        "14h às 21h"
+        "14h às 21h",
+        "8h às 12h"
       ],
       "quinta": [
-        "14h às 21h"
+        "14h às 21h",
+        "8h às 12h"
       ],
       "sexta": [
-        "14h às 21h"
+        "14h às 21h",
+        "8h às 12h"
       ],
       "sabado": [
-        "16h às 20h"
+        "16h às 20h",
+        "8h às 12h"
       ]
     }
   },
@@ -2410,46 +2498,7 @@
     "adoracao": {
       "domingo": [
         "16h"
-      ]
-    }
-  },
-  {
-    "id": 92,
-    "nome": "Paróquia São Benedito / 99916-2616",
-    "endereco": "",
-    "bairro": "",
-    "telefone": "3222-2667",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [
-        "6h30",
-        "9h",
-        "11h",
-        "17h"
       ],
-      "segunda": [
-        "6h30 e 17h30"
-      ],
-      "terca": [
-        "6h30 e 17h30"
-      ],
-      "quarta": [
-        "6h30 e 17h30"
-      ],
-      "quinta": [
-        "6h30 e 17h30"
-      ],
-      "sexta": [
-        "6h30 e 17h30"
-      ],
-      "sabado": [
-        "6h30 e 17h"
-      ]
-    },
-    "confissoes": {},
-    "adoracao": {
       "quinta": [
         "16h"
       ]
@@ -2501,14 +2550,17 @@
       ],
       "quinta": [
         "15h às 17h30"
+      ],
+      "sexta": [
+        "15h às 17h30"
       ]
     },
     "adoracao": {}
   },
   {
-    "id": 111,
-    "nome": "Paróquia São Cristóvão -",
-    "endereco": "Morada do Sol",
+    "id": 122,
+    "nome": "Paróquia São Cristóvão - (Morada do Sol)",
+    "endereco": "",
     "bairro": "",
     "telefone": "",
     "instagram": "",
@@ -2542,19 +2594,21 @@
   {
     "id": 94,
     "nome": "Paróquia São Francisco de Assis",
-    "endereco": "Cap. Nossa Senhora do Carmo",
+    "endereco": "Av. Barão de Castelo Branco 759, Cidade N",
     "bairro": "",
-    "telefone": "",
+    "telefone": "ova)",
     "instagram": "",
     "lat": null,
     "lng": null,
     "missas": {
       "domingo": [
-        "9h"
+        "9h",
+        "ova) 18h"
       ],
       "segunda": [],
       "terca": [
-        "6h"
+        "6h",
+        "19h"
       ],
       "quarta": [
         "6h"
@@ -2563,45 +2617,15 @@
         "6h"
       ],
       "sexta": [
-        "6h"
-      ],
-      "sabado": [
-        "6h"
-      ]
-    },
-    "confissoes": {},
-    "adoracao": {}
-  },
-  {
-    "id": 93,
-    "nome": "Paróquia São Francisco de Assis (Av. Barão de Castelo Branco 759, Cidade N",
-    "endereco": "",
-    "bairro": "",
-    "telefone": "ova)",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [
-        "ova) 18h"
-      ],
-      "segunda": [],
-      "terca": [
-        "19h"
-      ],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [
+        "6h",
         "19h"
       ],
       "sabado": [
+        "6h",
         "18h"
       ]
     },
     "confissoes": {
-      "domingo": [
-        "ova)"
-      ],
       "terca": [
         "14h30 às 17h30"
       ],
@@ -2613,9 +2637,6 @@
       ]
     },
     "adoracao": {
-      "domingo": [
-        "ova)"
-      ],
       "sexta": [
         "18h"
       ]
@@ -2632,7 +2653,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [],
@@ -2644,12 +2666,8 @@
       "sabado": []
     },
     "confissoes": {
-      "domingo": [
-        "Antes da missa"
-      ],
-      "quarta": [
-        "Antes da missa"
-      ]
+      "domingo": [],
+      "quarta": []
     },
     "adoracao": {
       "quinta": [
@@ -2684,11 +2702,19 @@
       "quinta": [
         "19h"
       ],
-      "sexta": [],
-      "sabado": []
+      "sexta": [
+        "19h"
+      ],
+      "sabado": [
+        "19h"
+      ]
     },
     "confissoes": {
       "sabado": [
+        "9h às 12h",
+        "15h às 19h"
+      ],
+      "terca": [
         "9h às 12h",
         "15h às 19h"
       ]
@@ -2703,90 +2729,6 @@
     }
   },
   {
-    "id": 97,
-    "nome": "Paróquia São José Operário - Secretaria Whats e 2106-0880",
-    "endereco": "",
-    "bairro": "",
-    "telefone": "98802-2779",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [
-        "6h",
-        "8h e 17h"
-      ],
-      "segunda": [
-        "19h"
-      ],
-      "terca": [
-        "³"
-      ],
-      "quarta": [],
-      "quinta": [
-        "19h"
-      ],
-      "sexta": [
-        "19h"
-      ],
-      "sabado": [
-        "19h"
-      ]
-    },
-    "confissoes": {},
-    "adoracao": {}
-  },
-  {
-    "id": 112,
-    "nome": "Paróquia São José Operário Whats - manhã #",
-    "endereco": "",
-    "bairro": "",
-    "telefone": "98802-2779",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [],
-      "segunda": [],
-      "terca": [],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [],
-      "sabado": []
-    },
-    "confissoes": {
-      "terca": [
-        "9h às 12h"
-      ]
-    },
-    "adoracao": {}
-  },
-  {
-    "id": 113,
-    "nome": "Paróquia São José Operário Whats - tarde #",
-    "endereco": "",
-    "bairro": "",
-    "telefone": "98802-2779",
-    "instagram": "",
-    "lat": null,
-    "lng": null,
-    "missas": {
-      "domingo": [],
-      "segunda": [],
-      "terca": [],
-      "quarta": [],
-      "quinta": [],
-      "sexta": [],
-      "sabado": []
-    },
-    "confissoes": {
-      "terca": [
-        "15h às 19h"
-      ]
-    },
-    "adoracao": {}
-  },
-  {
     "id": 96,
     "nome": "Paróquia São João Evangelista e São João Batista",
     "endereco": "Pq Piauí",
@@ -2797,7 +2739,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [],
       "terca": [
@@ -2826,7 +2769,8 @@
     "lng": -42.770786,
     "missas": {
       "domingo": [
-        "7h30 e 18h30"
+        "7h30",
+        "18h30"
       ],
       "segunda": [
         "18h30"
@@ -2877,7 +2821,8 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "7h e 18h30"
+        "7h",
+        "18h30"
       ],
       "segunda": [],
       "terca": [
@@ -2911,7 +2856,8 @@
     "lng": -42.809,
     "missas": {
       "domingo": [
-        "7h e 19h"
+        "7h",
+        "19h"
       ],
       "segunda": [
         "18h30"
@@ -2957,7 +2903,10 @@
     "lng": null,
     "missas": {
       "domingo": [
-        "17h"
+        "17h",
+        "6h30",
+        "8h",
+        "19h"
       ],
       "segunda": [],
       "terca": [
@@ -2970,7 +2919,8 @@
         "18h"
       ],
       "sexta": [
-        "18h ²"
+        "18h ²",
+        "18h"
       ],
       "sabado": [
         "19h"
@@ -3035,7 +2985,8 @@
     "missas": {
       "domingo": [
         "7h",
-        "9h e 19h"
+        "9h",
+        "19h"
       ],
       "segunda": [
         "19h"
@@ -3083,7 +3034,8 @@
     "lng": -42.8035,
     "missas": {
       "domingo": [
-        "8h e 18h"
+        "8h",
+        "18h"
       ],
       "segunda": [],
       "terca": [],

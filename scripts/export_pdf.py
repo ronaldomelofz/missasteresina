@@ -12,16 +12,13 @@ import pdfplumber
 from planilha_common import (
     DAY_HEADERS,
     DAYS,
+    PHONE_RE,
     build_output,
     empty_row,
-    empty_schedules,
     find_newest_pdf,
+    norm_text,
     split_times,
     write_output,
-)
-
-PHONE_RE = re.compile(
-    r"(?<!\d)(\d{4,5}[-\s]?\d{4}|\(\d{2}\)\s*\d{4,5}[-\s]?\d{4})(?!\d)"
 )
 
 
@@ -40,7 +37,12 @@ def is_schedule_table(table):
     if not table or len(table) < 2:
         return False
     headers = [norm_header(c) for c in table[0]]
-    return "paroquia / igreja" in headers[0] or "paroquia" in headers[0]
+    if not headers:
+        return False
+    first = headers[0]
+    if "paroquia" not in first and "igreja" not in first:
+        return False
+    return any(h in DAY_HEADERS for h in headers)
 
 
 def is_contact_table(table):
@@ -60,18 +62,32 @@ def map_day_columns(headers):
 
 
 def classify_page_section(page_text, page_index, table_index):
-    head = strip_accents((page_text or "")[:400]).lower()
+    head = strip_accents((page_text or "")[:500]).lower()
+    first_line = head.split("\n")[0] if head else ""
+
     if page_index <= 2:
         return "missas"
-    if "confiss" in head and "adora" not in head.split("\n")[0]:
-        return "confissoes"
+    if "confiss" in first_line or (page_index >= 5 and "confiss" in head):
+        if table_index >= 1 and page_index == 4:
+            return "confissoes"
+        if page_index >= 5:
+            return "confissoes"
     if page_index == 4 and table_index >= 1:
         return "confissoes"
-    if "adora" in head or "expos" in head or "santissimo" in head:
+    if "adora" in first_line or "expos" in first_line or "santissimo" in first_line:
         return "adoracao"
-    if page_index == 5 and table_index == 0:
-        return "confissoes"
+    if page_index in (3, 4):
+        return "adoracao"
     return "missas"
+
+
+def is_address_like(inner):
+    low = inner.lower()
+    if re.search(r"\b(r\.?|av\.?|br\.?|km\s*\d|shop\.?|bairro)\b", low):
+        return True
+    if re.search(r"\d{3,}", inner):
+        return True
+    return False
 
 
 def parse_church_cell(raw):
@@ -84,28 +100,44 @@ def parse_church_cell(raw):
     telefone = ""
     bairro = ""
 
-    phone_match = PHONE_RE.search(text)
-    if phone_match:
-        telefone = phone_match.group(1).strip()
-        text_wo = text[: phone_match.start()].strip() + " " + text[phone_match.end() :].strip()
-        text_wo = re.sub(r"\s+", " ", text_wo).strip(" ,")
-        text = text_wo or text
-
-    paren = text.rfind("(")
-    if paren > 0 and ")" in text[paren:]:
-        close = text.find(")", paren)
-        inner = text[paren + 1 : close].strip()
-        nome = text[:paren].strip()
-        endereco = inner
-        if " - " in inner:
-            parts = inner.rsplit(" - ", 1)
-            if len(parts) == 2 and len(parts[1]) < 40:
-                endereco = parts[0].strip()
-                bairro = parts[1].strip()
-    else:
+    phone_tail = PHONE_RE.search(text)
+    if phone_tail and phone_tail.end() >= len(text) - 8:
+        telefone = phone_tail.group(1).strip()
+        text = (text[: phone_tail.start()] + text[phone_tail.end() :]).strip(" /,-")
         nome = text
 
-    nome = re.sub(r"\s+", " ", nome).strip()
+    paren = text.find("(")
+    if paren > 0:
+        close = text.rfind(")")
+        if close > paren:
+            inner = text[paren + 1 : close].strip()
+            phone_in_paren = PHONE_RE.search(inner)
+            if phone_in_paren:
+                telefone = telefone or phone_in_paren.group(1).strip()
+                inner = (
+                    inner[: phone_in_paren.start()] + inner[phone_in_paren.end() :]
+                ).strip(" ,")
+
+            base = text[:paren].strip()
+            if is_address_like(inner):
+                nome = base
+                endereco = inner
+                if " - " in inner:
+                    parts = inner.rsplit(" - ", 1)
+                    if len(parts) == 2 and len(parts[1]) < 45:
+                        endereco = parts[0].strip()
+                        tail = parts[1].strip()
+                        if re.match(r"^[\d\s\-]+$", tail):
+                            telefone = telefone or tail
+                        else:
+                            bairro = tail
+            else:
+                nome = f"{base} ({inner})".strip()
+        else:
+            nome = text[:paren].strip()
+            endereco = text[paren + 1 :].strip()
+
+    nome = re.sub(r"\s+", " ", nome).strip(" /,-")
     return nome, endereco, bairro, telefone
 
 
@@ -130,12 +162,15 @@ def row_from_schedule(cells, day_cols, bucket):
             continue
         times = split_times(cells[col_idx])
         if times:
-            if bucket == "missas":
-                target[day] = times
-            else:
-                target[day] = times
+            target[day] = times
 
-    return data
+    for bucket_name in ("missas", "confissoes", "adoracao"):
+        block = data.get(bucket_name) or {}
+        for day in DAYS:
+            if block.get(day):
+                return data
+
+    return None
 
 
 def row_from_contact(cells):
@@ -145,20 +180,18 @@ def row_from_contact(cells):
     nome, endereco, bairro, telefone_cell = parse_church_cell(cells[0])
     telefone = telefone_cell
     instagram = ""
-    facebook = ""
 
     if len(cells) > 1 and cells[1]:
-        if not telefone:
-            telefone = str(cells[1]).strip()
-        else:
-            extra = str(cells[1]).strip()
-            if extra and extra != telefone:
-                telefone = f"{telefone} / {extra}" if telefone else extra
+        val = str(cells[1]).strip()
+        if PHONE_RE.search(val) or re.match(r"^[\d\s\-/]+$", val):
+            telefone = telefone or val
+        elif not telefone:
+            telefone = val
 
     if len(cells) > 2 and cells[2]:
-        instagram = str(cells[2]).strip().lstrip("@")
-    if len(cells) > 3 and cells[3]:
-        facebook = str(cells[3]).strip()
+        raw = str(cells[2]).strip()
+        if raw and not PHONE_RE.fullmatch(raw.replace(" ", "")):
+            instagram = raw.lstrip("@")
 
     data = empty_row()
     data["nome"] = nome
