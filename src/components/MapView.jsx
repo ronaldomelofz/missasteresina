@@ -41,10 +41,29 @@ export default function MapView({ churches, filteredIds, onSelectChurch }) {
       zoomControl: true,
     })
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    const streetsLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxZoom: 19,
-    }).addTo(instanceRef.current)
+    })
+
+    const satelliteLayer = L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+      {
+        attribution: 'Tiles © Esri',
+        maxZoom: 19,
+      },
+    )
+
+    satelliteLayer.addTo(instanceRef.current)
+
+    L.control.layers(
+      {
+        Satelite: satelliteLayer,
+        Ruas: streetsLayer,
+      },
+      {},
+      { position: 'topright' },
+    ).addTo(instanceRef.current)
 
     return () => {
       if (instanceRef.current) {
