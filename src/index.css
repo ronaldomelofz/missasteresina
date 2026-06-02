@@ -5,22 +5,22 @@
 }
 
 :root {
-  --gold: #9A7A2E;
-  --gold-light: #C4A052;
-  --gold-pale: #F5EDD5;
-  --gold-subtle: #FBF7EE;
-  --cream: #FDFAF4;
-  --parchment: #F0E8D4;
-  --ink: #1C1810;
-  --ink-soft: #3D3526;
-  --ink-muted: #6B5F4A;
-  --ink-faint: #9A8E7A;
-  --green-open: #2D7A4F;
-  --green-open-bg: #E8F5EE;
-  --amber-closed: #B5620A;
-  --amber-closed-bg: #FEF3E6;
-  --blue-accent: #1A4E6B;
-  --separator: #E4D9C0;
+  --gold: #b8860b;
+  --gold-light: #f2b705;
+  --gold-pale: #ffe7a3;
+  --gold-subtle: #fff6de;
+  --cream: #fdfaf4;
+  --parchment: #f0e8d4;
+  --ink: #1c1810;
+  --ink-soft: #2f2208;
+  --ink-muted: #5a3900;
+  --ink-faint: #7a4e00;
+  --green-open: #148a46;
+  --green-open-bg: #e6f8ee;
+  --amber-closed: #d87100;
+  --amber-closed-bg: #fff1de;
+  --blue-accent: #005ea8;
+  --separator: #e4d9c0;
   --shadow-sm: 0 1px 3px rgba(28,24,16,0.08);
   --shadow-md: 0 4px 16px rgba(28,24,16,0.10);
   --shadow-lg: 0 8px 32px rgba(28,24,16,0.12);
@@ -105,7 +105,7 @@ body {
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--ink-faint);
+  color: #6f4400;
 }
 
 /* === LAYOUT === */
