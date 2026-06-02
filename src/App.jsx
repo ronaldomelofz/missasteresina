@@ -221,14 +221,6 @@ export default function App() {
             </div>
           </div>
           <div className="header-stats">
-            <div className="stat-item">
-              <div className="stat-number">{igrejas.length}</div>
-              <div className="stat-label">Locais</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number" style={{ color: '#52C488' }}>{openCount}</div>
-              <div className="stat-label">Ativos</div>
-            </div>
             <img src="/bandeira_vaticano.png" alt="Bandeira do Vaticano" className="header-vatican-flag" />
           </div>
         </div>
