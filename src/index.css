@@ -30,14 +30,14 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 18px;
+  font-size: 13.5px;
 }
 
 body {
   font-family: 'Crimson Text', serif;
   background-color: var(--cream);
   color: var(--ink);
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.7;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -961,7 +961,7 @@ body {
 
   .header-title { font-size: 1.35rem; }
 
-  html { font-size: 17px; }
+  html { font-size: 12.75px; }
 
   .churches-grid {
     grid-template-columns: 1fr;
@@ -971,7 +971,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  html { font-size: 16px; }
+  html { font-size: 12px; }
 
   .days-grid {
     grid-template-columns: repeat(4, 1fr);
