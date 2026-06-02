@@ -4,3 +4,7 @@ dist
 .DS_Store
 *.local
 .netlify/
+
+__pycache__/
+*.pyc
+
