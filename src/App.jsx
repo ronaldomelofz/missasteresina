@@ -215,13 +215,10 @@ export default function App() {
       <header className="site-header">
         <div className="header-inner">
           <div className="header-brand">
-            <img src="/vaticano_brasao_de_armas.png" alt="Brasao do Vaticano" className="header-vatican-shield" />
+            <img src="/brasao_arquidiocese_teresina.png" alt="Brasao da Arquidiocese de Teresina" className="header-shield" />
             <div>
               <div className="header-title">Missas Teresina</div>
             </div>
-          </div>
-          <div className="header-stats">
-            <img src="/vaticano_bandeira.png" alt="Bandeira do Vaticano" className="header-vatican-flag" />
           </div>
         </div>
       </header>

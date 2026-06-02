@@ -68,18 +68,10 @@ body {
   gap: 12px;
 }
 
-.header-vatican-shield {
+.header-shield {
   width: 51px;
   height: 51px;
   object-fit: contain;
-}
-
-.header-vatican-flag {
-  width: 54px;
-  height: 34px;
-  object-fit: cover;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 4px;
 }
 
 .header-title {
